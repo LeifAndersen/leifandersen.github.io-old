@@ -1,0 +1,17 @@
+#lang scribble/manual
+
+Title: A Scribble Post
+Date: 2013-06-19T00:00:00
+Tags: Racket, blogging
+
+@title{Teaching}
+
+@section{Processing}
+
+Hello World.
+
+[Summer 2013]({{ root_url }}/teaching/processing2013)
+
+@section{Game Development Using Python and Pygame}
+
+[Summer 2013]({{ root_url }}/teaching/pygame2013)
