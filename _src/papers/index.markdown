@@ -1,11 +1,4 @@
----
-layout: page
-title: "Papers"
-#date: 2013-05-12 10:43
-comments: true
-sharing: true
-footer: true
----
+# Papers
 
 ## Proceedings Papers
 
@@ -26,7 +19,7 @@ Slides: [[pdf](/papers/andersen2013parallelization/slides.pdf)][[source](https:/
 
 Leif Andersen.
 
-Paper: [[pdf]({{ root_url }}/papers/andersen2011graphics.pdf)]
+Paper: [[pdf](/papers/andersen2011graphics.pdf)]
 
 ## Project Reports:
 
@@ -34,16 +27,16 @@ Paper: [[pdf]({{ root_url }}/papers/andersen2011graphics.pdf)]
 
 Leif Andersen, Daniel Blakemore, Jon Parker
 
-Paper: [[pdf]({{ root_url }}/papers/andersen2012vga.pdf)]
+Paper: [[pdf](/papers/andersen2012vga.pdf)]
 
 ### 2. Project Levitate
 
 Leif Andersen, Daniel Blakemore, Jon Parker
 
-Paper: [[pdf]({{ root_url }}/papers/andersen2012project.pdf)]
+Paper: [[pdf](/papers/andersen2012project.pdf)]
 
 ### 3. Parsing With Derivatives
 
 Leif Andersen
 
-Paper: [[pdf]({{ root_url }}/papers/andersen2012parsing.pdf)]
+Paper: [[pdf](/papers/andersen2012parsing.pdf)]

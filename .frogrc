@@ -1,8 +1,8 @@
 # Required: Should NOT end in trailing slash.
-scheme/host = http://www.example.com
+scheme/host = http://leifandersen.net
 
-title = My Awesome Blog
-author = The Unknown Author
+title = Leif Andersen
+author = Leif Andersen
 
 # What editor to launch with --edit. $EDITOR means to use $EDITOR from
 # the environment
@@ -20,7 +20,8 @@ show-tag-counts? = true
 # Pattern for blog post permalinks
 # Optional: Default is "/{year}/{month}/{title}.html".
 # Here's an example of the Jekyll "pretty" style:
-permalink = /blog/{year}/{month}/{day}/{title}/index.html
+#permalink = /blog/{year}/{month}/{day}/{title}/index.html
+permalink = /blog/{title}/index.html
 # There is also {filename}, which is the `this-part` portion of
 # your post's YYYY-MM-DD-this-part.md file name. This is in case
 # you don't like Frog's encoding of your post title and want to

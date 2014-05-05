@@ -3,5 +3,3 @@
     Tags:
 
 I have some posts in the works, but nothing finished yet, if you’re looking for the slides for my Introduction to Python you can find it at the Presentation Page.
-
-<!-- more -->

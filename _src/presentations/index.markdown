@@ -1,11 +1,5 @@
----
-layout: page
-title: "Presentations"
-# date: 2013-09-25 12:13
-comments: true
-sharing: true
-footer: true
----
+# Presentations
+
 ### 1. Introduction to Python (2013)
 
 Leif Andersen,

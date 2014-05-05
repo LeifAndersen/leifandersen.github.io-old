@@ -2,8 +2,8 @@
 
 ## Processing
 
-[Summer 2013]({{ root_url }}/teaching/processing2013)
+[Summer 2013](/teaching/processing2013)
 
 ## Game Development Using Python and Pygame
 
-[Summer 2013]({{ root_url }}/teaching/pygame2013)
+[Summer 2013](/teaching/pygame2013)
