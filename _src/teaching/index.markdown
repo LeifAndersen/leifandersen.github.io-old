@@ -1,9 +1,9 @@
-@title{Teaching}
+# Teaching
 
-@section{Processing}
+## Processing
 
 [Summer 2013]({{ root_url }}/teaching/processing2013)
 
-@section{Game Development Using Python and Pygame}
+## Game Development Using Python and Pygame
 
 [Summer 2013]({{ root_url }}/teaching/pygame2013)

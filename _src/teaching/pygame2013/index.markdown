@@ -1,11 +1,4 @@
----
-layout: page
-title: "Game Development Using Python and Pygame"
-#date: 2013-07-02 15:21
-comments: true
-sharing: true
-footer: true
----
+# Game Development Using Python and Pygame
 
 ## Resources
 

@@ -1,11 +1,4 @@
----
-layout: page
-title: "2013 Processing GREAT Camp"
-#date: 2013-06-07 07:51
-comments: true
-sharing: true
-footer: true
----
+# 2013 Processing GREAT Camp
 
 ## Tutorials
 
