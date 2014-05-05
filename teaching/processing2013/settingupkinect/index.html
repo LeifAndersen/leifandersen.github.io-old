@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>index</title>
+    <meta name="description" content="layout: page title: &quot;Setting up Processing for Kinect&quot; #date: 2013-06-07 17:21 comments: true sharing: true footer: true -- Instructions thanks to: Harrison Unruh Go to The Simple OpenNI processing download page, and save the .zip file  Extract the zip file (SimpleOpenNI.zip) to `C:/Users/username/Documents/Processing/libraries`  Go to: The OpenNI Libraries and drivers download page, and save the .zip file.  Extract the zip file `(OpenNI_NITE_Installer-win64-0.27.zip)`  Go into the folder you just extracted, and run the OpenNI installer  Now, run the NITE Installer  Finally, run the sensor-win64 installer (do NOT run the kinect installer, unless you are using the actual Microsoft Kinect)  Go ahead and plug in your sensor, and try a sample program.  ...">
+    <meta name="author"      content="The Unknown Blogger">
+    <meta name="keywords"    content="">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <link rel="icon"      href="/favicon.ico">
+    <link rel="canonical" href="http://leifandersen.net/teaching/processing2013/settingupkinect/index.html">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/css/scribble.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <!-- Feeds -->
+    <link ref="alternate" type="application/atom+xml"
+          href="/feeds/all.atom.xml" title="Atom Feed">
+    <link ref="alternate" type="application/rss+xml"
+          href="/feeds/all.rss.xml" title="RSS Feed">
+    <!-- JS -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-xxxxx']);
+      _gaq.push(['_setDomainName', 'example.com']);
+      _gaq.push(['_trackPageview']);
+      setTimeout(function(){_gaq.push(['_trackEvent', '30_seconds', 'read'])}, 30000); // http://drawingablank.me/blog/fix-your-bounce-rate.html
+      (function() {
+          var ga = document.createElement('script');
+          ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- A standard Twitter Bootstrap nav bar -->
+    <header class="navbar navbar-default navbar-inverse"
+            role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target=".our-nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/index.html" class="navbar-brand">Leif Andersen</a>
+        </div>
+        <div class="collapse navbar-collapse our-nav-collapse"
+             role="navigation">
+          <ul class="nav navbar-nav">
+            <li><a href="/papers">Papers</a></li>
+            <li><a href="/teaching">Teaching</a></li>
+            <li><a href="/presentations">Presentations</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Tags <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/index.html">All Posts</a></li>
+
+              </ul>
+            </li>
+            <li>
+              <a href="/About.html">About</a>
+            </li> 
+            <li><a href="/feeds/all.atom.xml">Atom</a></li>
+            <li><a href="/feeds/all.rss.xml">RSS</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+
+        <!-- Main column -->
+        <div id="content" class="col-md-12">
+
+
+
+
+
+
+<hr />
+
+<p>layout: page title: &ldquo;Setting up Processing for Kinect&rdquo; #date: 2013&ndash;06&ndash;07 17:21 comments: true sharing: true footer: true &mdash; Instructions thanks to: Harrison Unruh</p>
+
+<ol>
+ <li>
+  <p>Go to <a href="http://code.google.com/p/simple-openni/downloads/detail?name=SimpleOpenNI-0.27.zip&amp;can=2&amp;q=SimpleOpenNI">The Simple OpenNI processing download page</a>, and save the .zip file</p></li>
+ <li>
+  <p>Extract the zip file (SimpleOpenNI.zip) to <code>C:/Users/username/Documents/Processing/libraries</code></p></li>
+ <li>
+  <p>Go to: <a href="http://code.google.com/p/simple-openni/downloads/detail?name=OpenNI_NITE_Installer-win64-0.27.zip&amp;can=2&amp;q=OpenNI_NITE_Installer+win64">The OpenNI Libraries and drivers download page</a>, and save the .zip file.</p></li>
+ <li>
+  <p>Extract the zip file <code>(OpenNI_NITE_Installer-win64-0.27.zip)</code></p></li>
+ <li>
+  <p>Go into the folder you just extracted, and run the OpenNI installer</p></li>
+ <li>
+  <p>Now, run the NITE Installer</p></li>
+ <li>
+  <p>Finally, run the sensor-win64 installer (do NOT run the kinect installer, unless you are using the actual Microsoft Kinect)</p></li>
+ <li>
+  <p>Go ahead and plug in your sensor, and try a sample program.</p></li></ol>
+
+<p>Further instructions at the <a href="http://code.google.com/p/simple-openni/wiki/Installation">OpenNI/Processing Google Code page</a>.</p>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <p><a href="https://twitter.com/LeifAndersen"
+              class="twitter-follow-button"
+              data-show-count="false"
+              data-lang="en">
+             "Follow LeifAndersen"
+           </a>
+           <script type="text/javascript">
+             !function(d,s,id){
+                 var js,fjs=d.getElementsByTagName(s)[0];
+                 if(!d.getElementById(id)){
+                     js=d.createElement(s);
+                     js.id=id;
+                     js.src="//platform.twitter.com/widgets.js";
+                     fjs.parentNode.insertBefore(js,fjs);
+                 }
+             }(document,"script","twitter-wjs");
+           </script></p>
+        <p>Site generated
+        by <a href="https://github.com/greghendershott/frog">Frog</a>,
+        <em>Copyright © 2014 by Leif Andersen</em>.</p>
+      </footer>
+    </div>
+    <!-- </body> JS -->
+    <script type="text/javascript" src="//code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+      inlineMath: [ ['$', '$'] ],
+      displayMath: [ ['$$', '$$']],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      messageStyle: "none",
+      "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+      });
+    </script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+  </body>
+</html>

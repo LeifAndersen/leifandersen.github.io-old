@@ -1,0 +1,13 @@
+http://leifandersen.net/blog/nothing-to-see-here/
+http://leifandersen.net/teaching/pygame2013/index.html
+http://leifandersen.net/teaching/processing2013/settingupkinect/index.html
+http://leifandersen.net/teaching/processing2013/settingupandroid/index.html
+http://leifandersen.net/teaching/processing2013/index.html
+http://leifandersen.net/teaching/index.html
+http://leifandersen.net/presentations/python2013/index.html
+http://leifandersen.net/presentations/lucid2013/index.html
+http://leifandersen.net/presentations/index.html
+http://leifandersen.net/papers/index.html
+http://leifandersen.net/papers/andersen2013parallelization/index.html
+http://leifandersen.net/papers/andersen2013automaton/index.html
+http://leifandersen.net/About.html

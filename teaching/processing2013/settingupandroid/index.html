@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>index</title>
+    <meta name="description" content="layout: page title: &quot;Setting Up Processing for Android&quot; #date: 2013-06-07 08:06 comments: true sharing: true footer: true -- Download the latest version of processing (currently Processing 2.0) from the Processing website.  Download the Android ADT Bundle from the Android Development Website.  If you can't get the ADT Bundle, the SDK Tools Only option will also work.  In the ADT folder, go to `sdk -> tools`, and execute the `android` app.  Click the checkbox next to `Android 2.3.3 (API 10)`.  Click the Install Button.  Open the processing application.  There is a tab in the top right corner, that might say (click it to see the options).  Java  Experimental  Android  If Android is an option, or is already selected, choose it.  Otherwise, select `Add Mode...`  Select `Android Mode` and Click `Install`.  Close the popup, and select android from the menu.  On the Device Go to Settings -> Developer Options  Turn `USB Debugging` On.  Plug in the Android tablet.  Click Run in the processing window.  Enjoy your newly created Android App.  ...">
+    <meta name="author"      content="The Unknown Blogger">
+    <meta name="keywords"    content="">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <link rel="icon"      href="/favicon.ico">
+    <link rel="canonical" href="http://leifandersen.net/teaching/processing2013/settingupandroid/index.html">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/css/scribble.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <!-- Feeds -->
+    <link ref="alternate" type="application/atom+xml"
+          href="/feeds/all.atom.xml" title="Atom Feed">
+    <link ref="alternate" type="application/rss+xml"
+          href="/feeds/all.rss.xml" title="RSS Feed">
+    <!-- JS -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-xxxxx']);
+      _gaq.push(['_setDomainName', 'example.com']);
+      _gaq.push(['_trackPageview']);
+      setTimeout(function(){_gaq.push(['_trackEvent', '30_seconds', 'read'])}, 30000); // http://drawingablank.me/blog/fix-your-bounce-rate.html
+      (function() {
+          var ga = document.createElement('script');
+          ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- A standard Twitter Bootstrap nav bar -->
+    <header class="navbar navbar-default navbar-inverse"
+            role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target=".our-nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/index.html" class="navbar-brand">Leif Andersen</a>
+        </div>
+        <div class="collapse navbar-collapse our-nav-collapse"
+             role="navigation">
+          <ul class="nav navbar-nav">
+            <li><a href="/papers">Papers</a></li>
+            <li><a href="/teaching">Teaching</a></li>
+            <li><a href="/presentations">Presentations</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Tags <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/index.html">All Posts</a></li>
+
+              </ul>
+            </li>
+            <li>
+              <a href="/About.html">About</a>
+            </li> 
+            <li><a href="/feeds/all.atom.xml">Atom</a></li>
+            <li><a href="/feeds/all.rss.xml">RSS</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+
+        <!-- Main column -->
+        <div id="content" class="col-md-12">
+
+
+
+
+
+
+<hr />
+
+<p>layout: page title: &ldquo;Setting Up Processing for Android&rdquo; #date: 2013&ndash;06&ndash;07 08:06 comments: true sharing: true footer: true &mdash;</p>
+
+<ol>
+ <li>
+  <p>Download the latest version of processing (currently Processing 2.0) from <a href="http://processing.org">the Processing website</a>.</p></li>
+ <li>
+  <p>Download the Android ADT Bundle from the <a href="http://developer.android.com/sdk">Android Development Website</a>.</p></li>
+ <li>
+  <p>If you can&rsquo;t get the ADT Bundle, the SDK Tools Only option will also work.</p></li>
+ <li>
+  <p>In the ADT folder, go to <code>sdk -&gt; tools</code>, and execute the <code>android</code> app.</p></li>
+ <li>
+  <p>Click the checkbox next to <code>Android 2.3.3 (API 10)</code>.</p></li>
+ <li>
+  <p>Click the Install Button.</p></li>
+ <li>
+  <p>Open the processing application.</p></li>
+ <li>
+  <p>There is a tab in the top right corner, that might say (click it to see the options).</p></li>
+ <li>
+  <p>Java</p></li>
+ <li>
+  <p>Experimental</p></li>
+ <li>
+  <p>Android</p></li>
+ <li>
+  <p>If Android is an option, or is already selected, choose it.</p></li>
+ <li>
+  <p>Otherwise, select <code>Add Mode...</code></p></li>
+ <li>
+  <p>Select <code>Android Mode</code> and Click <code>Install</code>.</p></li>
+ <li>
+  <p>Close the popup, and select android from the menu.</p></li>
+ <li>
+  <p>On the Device Go to Settings -&gt; Developer Options</p></li>
+ <li>
+  <p>Turn <code>USB Debugging</code> On.</p></li>
+ <li>
+  <p>Plug in the Android tablet.</p></li>
+ <li>
+  <p>Click Run in the processing window.</p></li>
+ <li>
+  <p>Enjoy your newly created Android App.</p></li></ol>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <p><a href="https://twitter.com/LeifAndersen"
+              class="twitter-follow-button"
+              data-show-count="false"
+              data-lang="en">
+             "Follow LeifAndersen"
+           </a>
+           <script type="text/javascript">
+             !function(d,s,id){
+                 var js,fjs=d.getElementsByTagName(s)[0];
+                 if(!d.getElementById(id)){
+                     js=d.createElement(s);
+                     js.id=id;
+                     js.src="//platform.twitter.com/widgets.js";
+                     fjs.parentNode.insertBefore(js,fjs);
+                 }
+             }(document,"script","twitter-wjs");
+           </script></p>
+        <p>Site generated
+        by <a href="https://github.com/greghendershott/frog">Frog</a>,
+        <em>Copyright © 2014 by Leif Andersen</em>.</p>
+      </footer>
+    </div>
+    <!-- </body> JS -->
+    <script type="text/javascript" src="//code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+      inlineMath: [ ['$', '$'] ],
+      displayMath: [ ['$$', '$$']],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      messageStyle: "none",
+      "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+      });
+    </script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+  </body>
+</html>
