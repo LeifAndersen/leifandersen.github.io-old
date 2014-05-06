@@ -10,4 +10,4 @@ http://leifandersen.net/presentations/index.html
 http://leifandersen.net/papers/index.html
 http://leifandersen.net/papers/andersen2013parallelization/index.html
 http://leifandersen.net/papers/andersen2013automaton/index.html
-http://leifandersen.net/About.html
+http://leifandersen.net/about.html
