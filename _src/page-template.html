@@ -60,9 +60,9 @@
                   <a href="@|uri|"@|a-attribs|>@|label|</a>
                 </li> })
             @ni["/about.html" "About"]
-            @ni["/papers" "Papers"]
-            @ni["/teaching" "Teaching"]
-            @ni["/presentations" "Presentations"]
+            @ni["/papers/index.html" "Papers"]
+            @ni["/teaching/index.html" "Teaching"]
+            @ni["/presentations/index.html" "Presentations"]
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 Tags <b class="caret"></b></a>
@@ -86,9 +86,9 @@
             "col-md-4" divs, or 2 "col-md-6" divs. }
         <!-- Main column -->
         <div id="content" class="col-md-12">
+          @;{
           @;{ To put something only on the home page, check for
               @uri-path being "/index.html" }
-          @;{
           @(when (string-ci=? uri-path "/index.html")
             @list{
               <h1>Welcome</h1>
