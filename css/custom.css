@@ -49,6 +49,8 @@ body {
     border-left: solid 1px #bababa;
     border-right: solid 1px #dadada;
 
+    border-bottom: solid 1px #dadada;
+
     background-color: #f8f8f8;
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC');
     background-repeat: repeat-x;
@@ -83,14 +85,15 @@ h2 {
 }
 
 header.blog-title {
-    background-color: #5f2b00;
+    /*background-color: #CC0000;*/
+    background-image: url('/img/noise.png'), linear-gradient(#000000, #eeaaaa);
 }
 
 header.navbar {
-    background-image: url('/img/noise.png'), linear-gradient(#ffeeee, #ffe0a0);
+    background-image: url('/img/noise.png'), linear-gradient(#eeaaaa, #ffe0a0);
     background-repeat: repeat, repeat;
     background-color: transparent;
-    border-top: solid 1px white;
+    border-top: solid 1px #eeaaaa;
     border-bottom: solid 1px #80c0ef;
     border-left: none;
     border-right: none;
@@ -225,7 +228,7 @@ header.blog-title {
 }
 
 header.blog-title h1 {
-    font-size: 52px;
+    font-size: 100px;
     font-weight: normal;
 }
 
