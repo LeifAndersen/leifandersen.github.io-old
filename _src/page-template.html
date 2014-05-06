@@ -51,9 +51,6 @@
         <div class="collapse navbar-collapse our-nav-collapse"
              role="navigation">
           <ul class="nav navbar-nav">
-            <li><a href="/papers">Papers</a></li>
-            <li><a href="/teaching">Teaching</a></li>
-            <li><a href="/presentations">Presentations</a></li>
             @;{ We can define Racket functions to "DRY". Here's one to
                 emit HMTL for a nav item, adding class="active" iff
                 this page's @|uri-path| is the same as the nav link. }
@@ -62,6 +59,10 @@
                 <li@(when (string-ci=? uri uri-path) " class=\"active\"")>
                   <a href="@|uri|"@|a-attribs|>@|label|</a>
                 </li> })
+            @ni["/about.html" "About"]
+            @ni["/papers" "Papers"]
+            @ni["/teaching" "Teaching"]
+            @ni["/presentations" "Presentations"]
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 Tags <b class="caret"></b></a>
@@ -70,9 +71,10 @@
                 @|tags-list-items|
               </ul>
             </li>
-            @ni["/About.html" "About"]
+            @;{
             <li><a href="@|atom-feed-uri|">Atom</a></li>
             <li><a href="@|rss-feed-uri|">RSS</a></li>
+            }
           </ul>
         </div>
       </div>
