@@ -51,7 +51,7 @@ body {
 
     border-bottom: solid 1px #dadada;
 
-    background-color: #f8f8f8;
+    background-color: #fdfdfd;
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC');
     background-repeat: repeat-x;
     background-attachment: scroll;
@@ -85,15 +85,14 @@ h2 {
 }
 
 header.blog-title {
-    /*background-color: #CC0000;*/
-    background-image: url('/img/noise.png'), linear-gradient(#000000, #eeaaaa);
+    background-image: url('/img/noise.png'), linear-gradient(#7c4520, #5f3a24);
 }
 
 header.navbar {
-    background-image: url('/img/noise.png'), linear-gradient(#eeaaaa, #ffe0a0);
+    background-image: url('/img/noise.png'), linear-gradient(#f3b894, #e0803e);
     background-repeat: repeat, repeat;
     background-color: transparent;
-    border-top: solid 1px #eeaaaa;
+    border-top: solid 1px #f3b894;
     border-bottom: solid 1px #80c0ef;
     border-left: none;
     border-right: none;
@@ -102,7 +101,7 @@ header.navbar {
 }
 
 .navbar-inverse .navbar-brand, .navbar-header a, .navbar-inverse .navbar-nav > li > a {
-    color: #7b7b7b;
+    color: #262626;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -239,7 +238,7 @@ header.blog-title h2 {
 }
 
 header.blog-title h1 a {
-    color: #f2f2f2;
+    color: #fdfdfd;
     text-decoration: none;
 }
 
