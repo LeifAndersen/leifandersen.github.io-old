@@ -85,7 +85,7 @@ h2 {
 }
 
 header.blog-title {
-    background-image: url('/img/noise.png'), linear-gradient(#7c4520, #5f3a24);
+    background-image: url('/img/noise.png'), linear-gradient(#201005, #331910);
 }
 
 header.navbar {
@@ -206,9 +206,14 @@ article.blog-post > header > h1 {
     font-style: normal;
 }
 
-header.navbar .container, header.blog-title {
+header.navbar .container {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+header.blog-title {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 header.navbar {
