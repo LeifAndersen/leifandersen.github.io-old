@@ -20,7 +20,7 @@ Slides: [[pdf](/papers/andersen2013parallelization/slides.pdf)][[source](https:/
 
 Leif Andersen
 
-Presentation [[pdf](/presentations/cannibalism2014/cannibalism.pdf)][[source](https://github.com/LeifAndersen/CannibalismPresentation)]
+Presentation [[pdf](/presentations/cannibalism2014/cannibalism2014.pdf)][[source](https://github.com/LeifAndersen/CannibalismPresentation)]
 
 ### 2. Lucid Dreaming (Undistinguished Lecture 2013)
 
