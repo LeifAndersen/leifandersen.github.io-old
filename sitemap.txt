@@ -7,6 +7,7 @@ http://leifandersen.net/teaching/index.html
 http://leifandersen.net/presentations/python2013/index.html
 http://leifandersen.net/presentations/lucid2013/index.html
 http://leifandersen.net/presentations/index.html
+http://leifandersen.net/presentations/cannibalism2014/index.html
 http://leifandersen.net/papers/index.html
 http://leifandersen.net/papers/andersen2013parallelization/index.html
 http://leifandersen.net/papers/andersen2013automaton/index.html
