@@ -6,16 +6,25 @@ Leif Andersen,
 
 Presentation [[pdf](/presentations/python2013/python2013.pdf)][[source](https://github.com/LeifAndersen/PythonLecture2013)]
 
-### 2. Lucid Dreaming (Undistinguished Lecture 2013)
-
-Leif Andersen
-
-Presentation [[pdf](/presentations/lucid2013/lucid2013.pdf)][[source](https://github.com/LeifAndersen/LucidDreamingPresentation)]
-
-### 3. Parallelization of Abstracted Abstract Machines
+### 2. Parallelization of Abstracted Abstract Machines
 
 Leif Andersen, Matthew Might
 
 Paper:  [[pdf](/papers/andersen2013parallelization/andersen2013parallelization.pdf)]
 
 Slides: [[pdf](/papers/andersen2013parallelization/slides.pdf)][[source](https://github.com/LeifAndersenPresentations/andersen2013parallelization)]
+
+## Undistinguished Presentations
+
+### 1. Cannibalism and Mad Cow Disease (VERY TONG AND CHEEK Undistinguished Lecture 2014)
+
+Leif Andersen
+
+Presentation [[pdf](/presentations/cannibalism2014/cannibalism.pdf)][[source](https://github.com/LeifAndersen/CannibalismPresentation)]
+
+### 2. Lucid Dreaming (Undistinguished Lecture 2013)
+
+Leif Andersen
+
+Presentation [[pdf](/presentations/lucid2013/lucid2013.pdf)][[source](https://github.com/LeifAndersen/LucidDreamingPresentation)]
+
