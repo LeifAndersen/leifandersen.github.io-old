@@ -1,12 +1,4 @@
----
-layout: page
-title: "Lucid Dreaming"
-# date: 2013-09-27 17:25
-comments: true
-sharing: true
-footer: true
----
-### 1. Lucid Dreaming (Undistinguished Lecture 2013)
+# Lucid Dreaming (Undistinguished Lecture 2013)
 
 Leif Andersen
 
