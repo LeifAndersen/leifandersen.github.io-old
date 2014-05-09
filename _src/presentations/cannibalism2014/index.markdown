@@ -2,4 +2,4 @@
 
 Leif Andersen
 
-Presentation [[pdf](/presentations/cannibalism2014/cannibalism.pdf)][[source](https://github.com/LeifAndersen/CannibalismPresentation)]
+Presentation [[pdf](/presentations/cannibalism2014/cannibalism2014.pdf)][[source](https://github.com/LeifAndersen/CannibalismPresentation)]
