@@ -262,7 +262,7 @@ header.blog-title h1 a {
 }
 
 code, pre {
-    font-family: Menlo, 'Andale Mono', Monaco, 'Lucida Console', 'Courier New', monospace;
+    /*font-family: Menlo, 'Andale Mono', Monaco, 'Lucida Console', 'Courier New', monospace;*/
     font-size: 26px;
 }
 
