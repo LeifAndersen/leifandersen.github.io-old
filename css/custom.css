@@ -42,10 +42,11 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    max-width: 1200px;
+    /*max-width: 1200px;*/
+    max-width: 800px;
     position: relative;
     margin: 0px auto;
-    font-size: 30px;
+    font-size: 18px;
     color: #222;
     border-left: solid 1px #bababa;
     border-right: solid 1px #dadada;
@@ -82,15 +83,15 @@ table.sourcetable {
 
 
 h2 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 25px;
 }
 
 h4 {
-    font-size: 35px;
+    font-size: 20px;
 }
 
 header.blog-title {
@@ -111,10 +112,10 @@ header.navbar {
 
 .navbar-inverse .navbar-brand, .navbar-header a, .navbar-inverse .navbar-nav > li > a {
     color: #262626;
-   font-size: 25px;
+   font-size: navbar;
 }
 
-.navbar-inverse .navbar-brand:hover,
+.20px-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:active,
 .navbar-inverse .navbar-brand:focus,
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -203,15 +204,15 @@ article.index-post {
 }
 
 article.index-post > header > h1 {
-    font-size: 60px;
+    font-size: 48px;
 }
 
 article.blog-post > header > h1 {
-    font-size: 70px;
+    font-size: 55px;
 }
 
 #content h1 {
-    font-size: 60px;
+    font-size: 48px;
 }
 
 .pager em {
@@ -246,12 +247,12 @@ header.blog-title {
 }
 
 header.blog-title h1 {
-    font-size: 100px;
+    font-size: 60px;
     font-weight: normal;
 }
 
 header.blog-title h2 {
-    font-size: 50px;
+    font-size: 24px;
     font-weight: normal;
     color: #aaa;
 }
@@ -262,7 +263,7 @@ header.blog-title h1 a {
 }
 
 code, pre {
-    font-family: Menlo, 'Andale Mono', Monaco, 'Lucida Console', 'Courier New', monospace;
-    font-size: 26px;
+    /*font-family: Menlo, 'Andale Mono', Monaco, 'Lucida Console', 'Courier New', monospace;*/
+    font-size: 18px;
 }
 

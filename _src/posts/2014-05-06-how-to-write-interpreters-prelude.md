@@ -1,22 +1,24 @@
-    Title: How to Write Interpreters: Prelude - Racket and Pattern Matching
+    Title: How to Write Interpreters: Prelude A - Racket
     Date: 2014-05-06T17:06:04
     Tags: Interpreters, Racket, Pattern Matching, DRAFT
 
-Many people seem interested in the concept of writing compilers and interpreters. However, few know how to do it. Writing interpreters can be both fun and rewarding. This series of posts will take you through the steps to write interpreters for real world programming languages.
+Compilers and interpreters are fundamental building blocks of Computer Science.
 
-This first post will discusses the tools we will use to build the interpreter. It includes a brief introduction to Racket, followed by a discussion on pattern matching. The contents here are by no means an exhaustive look at Racket, but merely enough to create interpreters and compilers.
+Compilers transform a program from one language (often one humans like to read), into another language (often one easier to evaluate). Unlike compilers, interpreters evaluate code immediately as they read it.
 
-Subsequent blog posts will use these tools to make increasingly more powerful interpreters. A future series of posts will take the knowledge from here and use it to create compilers.
+Many people seem interested in the concept of writing compilers and interpreters. However, few know how to do it. Writing interpreters can be both fun and rewarding. Understanding how both compilers and interpreters work is an important part of Computer Science. This series of posts will take you through the steps to write interpreters for real world programming languages.
+
+This first post will discuss the tools we will use to build interpreters. It includes a brief introduction to Racket, followed by a discussion on pattern matching. The contents here are by no means an exhaustive look at Racket, but merely enough to create interpreters and compilers.
 
 <!-- more -->
 
 ## Racket
 
-For this tutorial, we will be using [Rakcet][Racket] for it's pattern matching features.
+For this tutorial, we will be using [Racket][Racket] for its pattern matching features.
 
 To get started, download Racket from [the Racket webstie][RacketDownload].
 
-The first time you will start up DrRacket, you will see the following window:
+The first time you start up DrRacket, you will see the following window:
 
 ![](/img/drracket_fresh.png)
 
@@ -28,7 +30,7 @@ All Racket files require `#lang` at the top. For now, just use `#lang racket` at
 
 ![](/img/drracket_empty.png)
 
-Racket is more than just a single programming language. Built into Racket are many languages. Adding `#lang racket` tells Racket to use the racket dialect.
+The Racket distribution is more than just a single programming language. Built into Racket are many languages. Adding `#lang racket` tells the Racket distribution to use its main dialect, simply called Racket.
 
 Try adding the following code to the top window and clicking `Run`:
 
@@ -41,7 +43,7 @@ DrRacket will print out the results from each of these expressions in the bottom
 
 ![](/img/drracket_math.png)
 
-Notice that in Racket, the `+` comes before the numbers we are adding together. This is because Racket uses [Prefix Notation][PrefixNotation]. This means that that the operator comes before the operands.
+Notice that in Racket, the `+` comes before the numbers we are adding together. This is because Racket uses [prefix notation][PrefixNotation]. This means that that the operator comes before the operands.
 
 In order to say `3 + 5`, write `(+ 3 5)`.
 
@@ -51,7 +53,7 @@ Once the program has run, you can execute additional expressions. Try executing 
 
 ![](/img/drracket_repl.png)
 
-You can have expressions as expressions. For example:
+You can use expressions as arguments to other expressions. For example:
 
 ```racket
 > (+ 3 8 (* 4 2) 9)
@@ -273,12 +275,104 @@ Try the following in the REPL:
 The `and` and `or` functions evaluate as regular Boolean algebra. Consider the following functions:
 
 ```racket
+> (and #t #t)
+#t
 
+> (and #t #f)
+#f
+
+> (or #f #t)
+#t
+
+> (or #f #f #f)
+#f
 ```
 
-Use `if` to evaluate different expressions based on different conditions.
+Use `if` to evaluate different expressions based on a condition. The most common way to use if is show below:
+
+```racket
+(if <condition>
+    <consequent>
+    <alternative>)
+```
+
+If the `<condition>` evaluates to `#t`, the `<consequent.` is evaluated, otherwise the `<alternative>` is evaluated. Note that anything that is not `#f` evaluates to `#t`, including `0` and `null`.
+
+An examples of an `if` is:
+
+```racket
+> (if (= 3 2)
+      4
+      5)
+5
+```
+
+An example of a more complex `if` would be the [Collatz conjecture][CollatzConjecture]:
+
+```racket
+#lang racket
+
+(define (f x count)
+  (if (= x 1)
+      count
+      (if (even? x)
+          (f (/ x 2) (+ count 1))
+          (f (+ (* x 3) 1) (+ count 1)))))
+
+(f 7 0) ; => 16
+```
+
+Racket contains another, possibly cleaner construct for conditional evaluation, which is `cond`. The details of cond can be found in [the Racket documentation][RacketCond]. The most common use of cond is:
+
+```racket
+(cond [<condition> <expression>]
+      [<condition> <expression>]
+      ...
+      [<condition> <expression>])
+```
+
+The Collatz Conjecture can be written more cleanly using cond:
+
+```racket
+#lang racket
+
+(define (f x count)
+  (cond [(= x 1)   count]
+        [(even? x) (f (/ x 2) (+ count 1))]
+        [else      (f (+ (* x 3) 1) (+ count 1))]))
+
+(f 7 0) ; => 16
+```
 
 ## Pattern Matching
+
+Racket has a very extensive and robust [pattern matching system][PatternMatching]. A good pattern matching system is at the base of any good compiler or interpreter. Pattern matching takes in an expression, and a lists of patterns paired with code, and execute the first pattern to match the code.
+
+The way we will use pattern matching is:
+
+```racket
+(match <match-expression>
+  [<pattern> <expression>]
+  [<pattern> <expression>]
+  ...
+  [<pattern> <expression>])
+```
+
+Racket will evaluate the first `<expression>` that is paired with the first `<pattern>` that matches `<match-expression>`.
+
+Patterns can be as simple as numbers or other constants:
+
+```racket
+> (match 3
+     [3      #t]
+     [4      #f]
+     ['blue  #f]
+     ["text" #f]
+     [else   #f])
+#t
+```
+
+Patterns
 
 ## Conclusion
 
@@ -292,27 +386,29 @@ A more gentle introduction to racket can be found on [the Racket quick start pag
 
 You can also learn more about programming with a lisp style language by reading [How to Design Programs][HTDP].
 
-The [Racket reference][PatternMatching] contains an exhastive list of the things you can match using pattern matchin.
+The [Racket reference][PatternMatching] contains an exhastive list of the things you can match using pattern matching.
 
 ## Exercises
 
-1. Write a factorial function using Racket. That is, write a function that takes in a number, and returns the factorial of that number.
+1. Using the [Racket documentation][RacketLists], figure out how to make the list `'(1 2 (3 4) 5)` using only the `cons` function. Now get the `4` out of the list using only `car` and `cdr`.
 
-2. Using the [Racket documentation][RacketLists], figure out how to make the list `'(1 2 (3 4) 5)` using only the `cons` function. Now get the `4` out of the list using only `car` and `cdr`.
+2. Again, using the [Racket documentation][RacketLists], figure out why the following is not a valid list `'(1 2 . 3 4)`.
 
-3. Again, using the [Racket documentation][RacketLists], figure out why the following is not a valid list `'(1 2 . 3 4)`.
-
-4. What is the difference between the following two pieces of code?
+3. What is the difference between the following two pieces of code?
 
     ``(define (f x) (+ 8 x))``
 
     ``(define f (λ (x) (+ 8 x)))``
 
-5. Why is the following code invalid?
+4. Why is the following code invalid?
 
     `` `(1 2 ,@(+ 3 2) 4)``
 
-6. Foo
+5. What happens when `(or)` is called without any arguments?
+
+6. Write a factorial function using Racket. That is, write a function that takes in a number, and returns the factorial of that number.
+
+7. Rewrite the previous problem using pattern matching.
 
 [Racket]: http://racket-lang.org
 [PrefixNotation]: http://en.wikipedia.org/wiki/Polish_notation
@@ -324,3 +420,5 @@ The [Racket reference][PatternMatching] contains an exhastive list of the things
 [AnonymousFunction]: http://en.wikipedia.org/wiki/Anonymous_function
 [RacketDownload]: http://http://racket-lang.org/download/
 [BooleanAlgebra]: http://en.wikipedia.org/wiki/Boolean_algebra
+[RacketCond]: http://docs.racket-lang.org/reference/if.html
+[CollatzConjecture]: http://en.wikipedia.org/wiki/Collatz_conjecture
