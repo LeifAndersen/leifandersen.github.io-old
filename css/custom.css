@@ -46,7 +46,7 @@ body {
     max-width: 800px;
     position: relative;
     margin: 0px auto;
-    font-size: 18px;
+    font-size: 20px;
     color: #222;
     border-left: solid 1px #bababa;
     border-right: solid 1px #dadada;
@@ -64,7 +64,7 @@ body {
 }
 
 p {
-    line-height: 40px;
+    line-height: 30px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -83,15 +83,15 @@ table.sourcetable {
 
 
 h2 {
-    font-size: 30px;
+    font-size: 32px;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 27px;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 header.blog-title {
@@ -208,11 +208,11 @@ article.index-post > header > h1 {
 }
 
 article.blog-post > header > h1 {
-    font-size: 55px;
+    font-size: 48px;
 }
 
 #content h1 {
-    font-size: 48px;
+    font-size: 40px;
 }
 
 .pager em {
