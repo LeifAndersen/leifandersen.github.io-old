@@ -16,13 +16,7 @@ Slides: [[pdf](/papers/andersen2013parallelization/slides.pdf)][[source](https:/
 
 ## Undistinguished Presentations
 
-### 1. Cannibalism and Mad Cow Disease (VERY TONG AND CHEEK Undistinguished Lecture 2014)
-
-Leif Andersen
-
-Presentation [[pdf](/presentations/cannibalism2014/cannibalism2014.pdf)][[source](https://github.com/LeifAndersen/CannibalismPresentation)]
-
-### 2. Lucid Dreaming (Undistinguished Lecture 2013)
+### 1. Lucid Dreaming (Undistinguished Lecture 2013)
 
 Leif Andersen
 
