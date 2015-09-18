@@ -2,7 +2,22 @@
 
 ## Proceedings Papers
 
-### 1. Parallelization of Abstracted Abstract Machines
+### 1. Feature-Specific Profiling
+24th International Conference on Compiler Construction (CC)
+
+Vincent St-Amour, Leif Andersen, Matthias Felleisen
+
+Paper: [[pdf](/papers/stamour2014feature.pdf)]
+
+### 2. Concrete and Abstract Interpretation: Better Together
+Scheme and Functional Programming Workshop 2014
+
+Maria Jenkins, Leif Andersen, Thomas Gilray, Matthew Might
+
+Paper: [[pdf](/papers/jenkins2014abstract.pdf)]
+
+### 3. Parallelization of Abstracted Abstract Machines
+Scheme and Functional Programming Workshop 2013
 
 Leif Andersen, Matthew Might
 
