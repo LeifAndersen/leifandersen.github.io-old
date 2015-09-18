@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Leif Andersen: All Posts</title>
-  <description>Leif Andersen: All Posts</description>
+  <title>Leif Andersen: Leif Andersen</title>
+  <description>Leif Andersen: Leif Andersen</description>
   <link>http://leifandersen.net/index.html</link>
-  <lastBuildDate>Mon, 05 May 2014 10:53:02 MDT</lastBuildDate>
-  <pubDate>Mon, 05 May 2014 10:53:02 MDT</pubDate>
+  <lastBuildDate>Mon, 05 May 2014 14:53:02 UT</lastBuildDate>
+  <pubDate>Mon, 05 May 2014 14:53:02 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>Nothing to See Here</title>
    <link>http://leifandersen.net/blog/nothing-to-see-here/?utm_source=all&amp;utm_medium=RSS</link>
    <guid>urn:http-leifandersen-net:-blog-nothing-to-see-here</guid>
-   <pubDate>Mon, 05 May 2014 10:53:02 MDT</pubDate>
-   <description>
-&lt;html&gt;&lt;img src="http://leifandersen.net/img/1x1.gif?utm_source=all&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=%2Fblog%2Fnothing-to-see-here%2F" height="1" width="1" /&gt;
- &lt;p&gt;I have some posts in the works, but nothing finished yet, if you’re looking for the slides for my Introduction to Python you can find it at the Presentation Page.&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
+   <pubDate>Mon, 05 May 2014 14:53:02 UT</pubDate>
+   <description>&lt;html&gt;
+&lt;p&gt;I have some posts in the works, but nothing finished yet, if you’re looking for the slides for my Introduction to Python you can find it at the Presentation Page.&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
