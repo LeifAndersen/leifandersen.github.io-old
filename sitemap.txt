@@ -1,4 +1,4 @@
-http://leifandersen.net/blog/nothing-to-see-here/
+http://leifandersen.net/blog/nothing-to-see-here
 http://leifandersen.net/teaching/pygame2013/index.html
 http://leifandersen.net/teaching/processing2013/settingupkinect/index.html
 http://leifandersen.net/teaching/processing2013/settingupandroid/index.html

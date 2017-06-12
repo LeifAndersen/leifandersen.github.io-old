@@ -9,8 +9,15 @@
   <ttl>1800</ttl>
   <item>
    <title>Nothing to See Here</title>
-   <link>http://leifandersen.net/blog/nothing-to-see-here/?utm_source=all&amp;utm_medium=RSS</link>
-   <guid>urn:http-leifandersen-net:-blog-nothing-to-see-here</guid>
+   <link>http://leifandersen.net/blog/nothing-to-see-here?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-leifandersen-net:-blog-nothing-to-see-here</guid>
    <pubDate>Mon, 05 May 2014 14:53:02 UT</pubDate>
-   <description>&lt;html&gt;
-&lt;p&gt;I have some posts in the works, but nothing finished yet. You can currently find some of my papers and talks on this website.&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
+   <author>Leif Andersen</author>
+   <description>
+&lt;p&gt;Twitter: &lt;a href="https://twitter.com/LeifAndersen"&gt;twitter.com/LeifAndersen&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github: &lt;a href="https://github.com/LeifAndersen"&gt;github.com/LeifAndersen&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Nanopass: &lt;a href="http://nanopass.org"&gt;nanopass.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Video: &lt;a href="http://video-lang.org"&gt;video-lang.org&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

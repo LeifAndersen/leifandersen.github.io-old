@@ -7,11 +7,17 @@
  <updated>2014-05-05T14:53:02Z</updated>
  <entry>
   <title type="text">Nothing to See Here</title>
-  <link rel="alternate" href="http://leifandersen.net/blog/nothing-to-see-here/?utm_source=all&amp;utm_medium=Atom" />
+  <link rel="alternate" href="http://leifandersen.net/blog/nothing-to-see-here?utm_source=all&amp;utm_medium=Atom" />
   <id>urn:http-leifandersen-net:-blog-nothing-to-see-here</id>
   <published>2014-05-05T14:53:02Z</published>
   <updated>2014-05-05T14:53:02Z</updated>
   <author>
    <name>Leif Andersen</name></author>
-  <content type="html">&lt;html&gt;
-&lt;p&gt;I have some posts in the works, but nothing finished yet. You can currently find some of my papers and talks on this website.&lt;/p&gt;&lt;/html&gt;</content></entry></feed>
+  <content type="html">
+&lt;p&gt;Twitter: &lt;a href="https://twitter.com/LeifAndersen"&gt;twitter.com/LeifAndersen&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github: &lt;a href="https://github.com/LeifAndersen"&gt;github.com/LeifAndersen&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Nanopass: &lt;a href="http://nanopass.org"&gt;nanopass.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Video: &lt;a href="http://video-lang.org"&gt;video-lang.org&lt;/a&gt;&lt;/p&gt;</content></entry></feed>
